@@ -35,3 +35,5 @@ Veja a configuração de cada módulo
 [Mcache](https://github.com/mixdinternet/mcache)
 
 [Maudit](https://github.com/mixdinternet/maudit)
+
+[Mmails](https://github.com/mixdinternet/mmails)
