@@ -14,7 +14,7 @@ Adicione no seu composer.json
 
 ```js
   "require": {
-    "mixdinternet/mconfig": "0.1.*"
+    "mixdinternet/mconfig": "0.2.*"
   }
 ```
 
