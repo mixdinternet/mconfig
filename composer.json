@@ -13,10 +13,10 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*",
-        "mixdinternet/mcache": "0.1.*",
-        "mixdinternet/maudit": "0.1.*",
-        "mixdinternet/mmails": "0.1.*"
+        "laravel/framework": "~5.0",
+        "mixdinternet/mcache": "0.2.*",
+        "mixdinternet/maudit": "0.2.*",
+        "mixdinternet/mmails": "0.2.*"
     },
     "autoload": {
         "psr-4": {
