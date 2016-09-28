@@ -3,8 +3,7 @@
 namespace Mixdinternet\Mconfig\Providers;
 
 use Illuminate\Support\ServiceProvider;
-
-use Menu;
+use Pingpong\Menus\MenuFacade as Menu;
 
 class MconfigServiceProvider extends ServiceProvider
 {
