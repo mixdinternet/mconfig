@@ -15,10 +15,6 @@ class MconfigServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->register('Mixdinternet\Mconfig\Providers\CustomMauditServiceProvider');
-        $this->app->register('Mixdinternet\Mconfig\Providers\CustomMcacheServiceProvider');
-        $this->app->register('Mixdinternet\Mconfig\Providers\CustomMmailsServiceProvider');
-
         $this->setMenu();
     }
 
@@ -29,7 +25,9 @@ class MconfigServiceProvider extends ServiceProvider
      */
     public function register()
     {
-
+        $this->app->register('Mixdinternet\Mconfig\Providers\CustomMauditServiceProvider');
+        $this->app->register('Mixdinternet\Mconfig\Providers\CustomMcacheServiceProvider');
+        $this->app->register('Mixdinternet\Mconfig\Providers\CustomMmailsServiceProvider');
     }
 
     protected function setMenu()
